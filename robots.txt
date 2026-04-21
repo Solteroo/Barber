@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://barber.vercel.app/sitemap.xml
+Sitemap: https://barber-nu-lac.vercel.app/sitemap.xml
