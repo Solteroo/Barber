@@ -3,7 +3,7 @@
   "short_name": "Barber",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#111",
+  "background_color": "#000",
   "theme_color": "#e2b04a",
   "orientation": "portrait",
   "icons": [
