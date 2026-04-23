@@ -9,21 +9,21 @@
   </url>
 
   <url>
-    <loc>https://barber-nu-lac.vercel.app/#services</loc>
+    <loc>https://barber-nu-lac.vercel.app/#barber</loc>
     <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://barber-nu-lac.vercel.app/#portfolio</loc>
+    <loc>https://barber-nu-lac.vercel.app/#salon</loc>
     <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
 
   <url>
-    <loc>https://barber-nu-lac.vercel.app/#pricing</loc>
+    <loc>https://barber-nu-lac.vercel.app/#reviews</loc>
     <lastmod>2026-04-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
