@@ -1,25 +1,25 @@
-const CACHE = "barber-pwa-v1";
+const CACHE = "barber-pwa-v2";
 
 const ASSETS = [
   "/",
   "/offline.html",
-  "/style.css",
-  "/script.js",
-  "/manifest.json",
+  "assets/css/style.css",
+  "assets/js/script.js",
+  "assets/icons/site.webmanifest",
 
-  "/icon-192.png",
-  "/icon-512.png",
+  "assets/icons/icon-192.png",
+  "assets/icons/icon-512.png",
 
-  "/back.jpg",
-  "/haircut.jpg",
-  "/beard.jpg",
-  "/styling.jpg",
-  "/color.jpg",
-  "/daily.jpg",
-  "/party.jpg",
-  "/manicure.jpg",
-  "/bridal.jpg",
-  "/coloring.jpg"
+  "assets/images/back.jpg",
+  "assets/images/haircut.jpg",
+  "assets/images/beard.jpg",
+  "assets/images/styling.jpg",
+  "assets/images/color.jpg",
+  "assets/images/daily.jpg",
+  "assets/images/party.jpg",
+  "assets/images/manicure.jpg",
+  "assets/images/bridal.jpg",
+  "assets/images/coloring.jpg"
 ];
 
 // INSTALL
