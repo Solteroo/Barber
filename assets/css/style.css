@@ -17,25 +17,84 @@ color:#fff;
 /* smooth + premium feel */  
 html{scroll-behavior:smooth;}  
   #installBox {
+
+    #installBox {
   position: fixed;
   bottom: 20px;
-  left: 20px;
-  background: #111;
-  padding: 10px;
-  border-radius: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+
   display: flex;
-  gap: 10px;
   align-items: center;
-  color: white;
+  gap: 12px;
+
+  padding: 12px 14px;
+  border-radius: 16px;
+
+  background: rgba(20, 20, 20, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+
+  color: #fff;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+
+  z-index: 9999;
+
+  animation: slideUp 0.4s ease;
 }
 
-#closeBtn {
-  background: red;
+/* Install button */
+#installBtn {
+  background: linear-gradient(135deg, #e2b04a, #c48a1d);
   border: none;
-  color: white;
-  padding: 5px 10px;
+  color: #111;
+  font-weight: 600;
+
+  padding: 8px 14px;
+  border-radius: 12px;
+
   cursor: pointer;
+
+  transition: 0.2s ease;
 }
+
+#installBtn:hover {
+  transform: scale(1.05);
+}
+
+/* Close button */
+#closeBtn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: #fff;
+
+  padding: 6px 10px;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+#closeBtn:hover {
+  background: rgba(255,255,255,0.1);
+}
+
+/* animation */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, 20px);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, 0);
+  }
+}
+    
 /* LOADER */  
 #loader{  
 position:fixed;  
