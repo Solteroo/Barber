@@ -15,8 +15,7 @@ color:#fff;
 }  
   
 /* smooth + premium feel */  
-html{scroll-behavior:smooth;}  
-  #installBox {
+html{scroll-behavior:smooth;} 
 
     #installBox {
   position: fixed;
