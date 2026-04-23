@@ -5,7 +5,41 @@ const modalImg=document.getElementById("modalImg");
 window.addEventListener("load",()=>{  
 document.getElementById("loader").style.display="none";  
 });  
-  
+  let deferredPrompt;
+
+const installBox = document.getElementById("installBox");
+const installBtn = document.getElementById("installBtn");
+const closeBtn = document.getElementById("closeBtn");
+
+// install prompt
+window.addEventListener("beforeinstallprompt", (e) => {
+  e.preventDefault();
+  deferredPrompt = e;
+
+  installBox.style.display = "flex";
+});
+
+// install bosildi
+installBtn.addEventListener("click", async () => {
+  if (!deferredPrompt) return;
+
+  deferredPrompt.prompt();
+
+  const choice = await deferredPrompt.userChoice;
+
+  deferredPrompt = null;
+  installBox.style.display = "none";
+});
+
+// X bosildi (yopish)
+closeBtn.addEventListener("click", () => {
+  installBox.style.display = "none";
+});
+
+// agar allaqachon install bo‘lsa
+window.addEventListener("appinstalled", () => {
+  installBox.style.display = "none";
+});
 window.addEventListener("scroll",()=>{  
 nav.classList.toggle("scrolled",window.scrollY>50);  
 });  
