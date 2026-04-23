@@ -1,0 +1,38 @@
+HOW TO USE THIS TEMPLATE
+
+--------------------------------
+
+1. DOWNLOAD & EXTRACT
+- Download ZIP file
+- Extract it on your computer
+
+--------------------------------
+
+2. OPEN WEBSITE
+- Open "index.html"
+- Double click or open in browser
+
+--------------------------------
+
+3. EDIT CONTENT
+- Open index.html in VS Code or any editor
+- Change text (name, services, prices)
+- Replace images inside assets/images
+
+--------------------------------
+
+4. CHANGE IMAGES
+- Go to assets/images folder
+- Replace images with your own
+
+--------------------------------
+
+5. UPLOAD ONLINE (OPTIONAL)
+- Use Vercel or Netlify
+- Drag & drop project folder
+
+--------------------------------
+
+DONE ✔
+Your website is ready to use
+
