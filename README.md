@@ -1,5 +1,5 @@
 💈 Barber & Salon - Premium PWA Website
-A modern Barber & Beauty Salon landing page built with PWA support.
+A modern Barber & Beauty Salon landing page built with PWA support.<p>
 Installable, fast, and works offline like a mobile app.
 🚀 Live Demo
 👉 https://barber-nu-lac.vercel.app
